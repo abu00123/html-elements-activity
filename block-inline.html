@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Block vs Inline Elements</title>
+    <style>
+        .highlight {
+            background-color: yellow;
+        }
+        div, section {
+            border: 2px solid blue;
+            margin: 10px 0;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Block vs Inline Elements Demo</h1>
+    
+    <p>This is a paragraph with <strong>bold text</strong> and a <span class="highlight">highlighted span</span> inside it.</p>
+    
+    <div>
+        This is a div element (block-level). It takes up the full width available.
+    </div>
+    
+    <section>
+        This is a section element (block-level). It also takes up the full width and stacks below the div.
+    </section>
+</body>
+</html>
